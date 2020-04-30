@@ -178,5 +178,6 @@ async def on_message(message):
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
 
+        
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
