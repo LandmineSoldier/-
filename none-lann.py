@@ -3,9 +3,8 @@ import discord, asyncio
 import random
 import time
 from random import *
+import os
 
-
-token = "NzA0OTM2Njc4ODA4MzU0ODc5.XqkZfw.5U1ymmjPBj8g2nNx41KoHDP3UXQ"
 client = discord.Client()
 
 @client.event
@@ -179,4 +178,5 @@ async def on_message(message):
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
 
-client.run(token)
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
