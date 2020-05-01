@@ -63,6 +63,8 @@ async def on_message(message):
         embed.add_field(name="14", value="-다른 유저의 사생활 메시지 도배 논란", inline=True)
         embed.add_field(name="15", value="-'7쨜'발언 논란", inline=True)
         embed.add_field(name="16", value="-수업태도 태만 논란", inline=True)
+        embed.add_field(name="17", value="-남좌 논란", inline=True)
+        embed.add_field(name="18", value="-'3반 이쁜이는 나다' 나르시시즘 논란", inline=True)
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
 
@@ -124,6 +126,7 @@ async def on_message(message):
         embed.add_field(name="25", value="-친구에게 선생님으로 협박 논란", inline=True)
         embed.add_field(name="26", value="-친구에게 살인 협박 논란", inline=True)
         embed.add_field(name="27", value="-'이런 양아치가..' 발언 논란", inline=True)
+        embed.add_field(name="28", value="-'1반 이쁜이는 나 하는거 어때' 나르시시즘 논란", inline=True)
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
 
