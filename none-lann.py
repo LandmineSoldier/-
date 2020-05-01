@@ -124,11 +124,15 @@ async def on_message(message):
         embed.add_field(name="23", value="-2반으로 위장잠입 논란", inline=True)
         embed.add_field(name="24", value="-논란퀸칭호를 즐기고있어 논란", inline=True)
         embed.add_field(name="25", value="-친구에게 선생님으로 협박 논란", inline=True)
+        embed.set_footer(text="목록이 많아서 2장까지 넘어갔습니다")
+        await message.channel.send(embed=embed)
+        embed=discord.Embed(title="전X현/논란", description="그흐녀의 논란 어록 2장", color=0xff6a6a)
         embed.add_field(name="26", value="-친구에게 살인 협박 논란", inline=True)
         embed.add_field(name="27", value="-'이런 양아치가..' 발언 논란", inline=True)
         embed.add_field(name="28", value="-'1반 이쁜이는 나 하는거 어때' 나르시시즘 논란", inline=True)
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
+        
 
     if message.content.startswith("서X우/논란"):
         embed=discord.Embed(title="서X우/논란", description="그의 논란 어록", color=0xffec2b)
