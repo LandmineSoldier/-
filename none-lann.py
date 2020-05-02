@@ -137,6 +137,7 @@ async def on_message(message):
         embed.add_field(name="26", value="-친구에게 살인 협박 논란", inline=True)
         embed.add_field(name="27", value="-'이런 양아치가..' 발언 논란", inline=True)
         embed.add_field(name="28", value="-'1반 이쁜이는 나 하는거 어때' 나르시시즘 논란", inline=True)
+        embed.add_field(name="29", value="-비정상 인정 논란", inline=True)
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
         
