@@ -20,11 +20,6 @@ async def on_message(message):
         return None
     #made by LandmineSoldier (지뢰군인)
 
-    if message.content.startswith("논란!"):
-        await message.channel.send("논란이다!")
-    elif message.content.endswith("논란!"):
-        await message.channel.send("논란이다!")
-
     if message.content.startswith("윤X현/논란"):
         embed=discord.Embed(title="윤X현/논란", description="그의 논란 어록", color=0x696969)
         embed.add_field(name="1", value="-개보다 못한사람...강아지 비하발언", inline=True)
@@ -72,6 +67,11 @@ async def on_message(message):
         embed.add_field(name="23", value="-류X준 외 3명 살해협박 논란", inline=True)
         embed.add_field(name="24", value="-꼰대 논란", inline=True)
         embed.add_field(name="25", value="-논란킹이 되고자 자가신고 논란", inline=True)
+        embed.set_footer(text="목록이 많아서 2장까지 넘어갔습니다")
+        await message.channel.send(embed=embed)
+        embed=discord.Embed(title="박X아/논란", description="그녀?의 논란 어록 2장", color=0xffff90)
+        embed.add_field(name="26", value="-'빨리 다 박제 해버려' 논란킹 되고 싶어 논란", inline=True)
+        embed.add_field(name="27", value="-'부성이가 그랬어요' 누명씌우기 논란", inline=True)
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
 
@@ -138,6 +138,7 @@ async def on_message(message):
         embed.add_field(name="27", value="-'이런 양아치가..' 발언 논란", inline=True)
         embed.add_field(name="28", value="-'1반 이쁜이는 나 하는거 어때' 나르시시즘 논란", inline=True)
         embed.add_field(name="29", value="-비정상 인정 논란", inline=True)
+        embed.add_field(name="30", value="-아잉 남발 논란", inline=True)
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
         
