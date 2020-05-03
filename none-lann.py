@@ -19,6 +19,12 @@ async def on_message(message):
     if message.author.bot:
         return None
     #made by LandmineSoldier (지뢰군인)
+    
+    
+    if message.content.startswith("논란!"):
+        await message.channel.send("논란이다!")
+    elif message.content.endswith("논란!"):
+        await message.channel.send("논란이다!")
 
     if message.content.startswith("윤X현/논란"):
         embed=discord.Embed(title="윤X현/논란", description="그의 논란 어록", color=0x696969)
