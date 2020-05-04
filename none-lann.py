@@ -78,6 +78,9 @@ async def on_message(message):
         embed=discord.Embed(title="박X아/논란", description="그녀?의 논란 어록 2장", color=0xffff90)
         embed.add_field(name="26", value="-'빨리 다 박제 해버려' 논란킹 되고 싶어 논란", inline=True)
         embed.add_field(name="27", value="-'부성이가 그랬어요' 누명씌우기 논란", inline=True)
+        embed.add_field(name="28", value="-'요정이 나타났다' 요정 논란", inline=True)
+        embed.add_field(name="29", value="-'나도 잼민이 할래' 현실부정 논란", inline=True)
+        embed.add_field(name="30", value="-자가논란박제 논란", inline=True)
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
 
