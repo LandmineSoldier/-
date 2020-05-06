@@ -111,6 +111,7 @@ async def on_message(message):
         embed.add_field(name="1", value="-논란 작성 논란", inline=True)
         embed.add_field(name="2", value="-전세계 '우민'이라는 이름을 가진 사람 비하 발언", inline=True)
         embed.add_field(name="3", value="-친구의 이름앞'성'을 바꾸어 '성'희롱 논란", inline=True)
+        embed.add_field(name="4", value="-'가능' 논란", inline=True)
         embed.set_footer(text="추가 하고 싶은 논란은 DM으로")
         await message.channel.send(embed=embed)
 
